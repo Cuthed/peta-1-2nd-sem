@@ -1,0 +1,95 @@
+
+    body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+    header {
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            background-color: #18b80a;
+            border-radius: 5px;
+        }
+    #open {
+            text-align: left;
+        }
+    #tittle{
+            font-size: 50px;
+        }
+    .container{
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+    #bodytxt{
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            text-align: justify;
+    }
+    p{
+        font-size: 22px;
+    }
+    form {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+    input[type="text"],
+    input[type="email"],
+    textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    input[type="submit"] {
+            background-color: #18b80a;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    input[type="submit"]:hover {
+            background-color: #19690e;
+        }
+    input[type="submit"]:active {
+            background-color: #359b06;
+        }
+    video {
+        display: block;
+        margin: auto;
+        }
+    source{
+        border-radius: 5px;
+    }
+    /* CSS styles */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    /* Centering the form */
+    margin: 0 auto;
+    text-align: left;
+     /* Align form elements to the left */
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
